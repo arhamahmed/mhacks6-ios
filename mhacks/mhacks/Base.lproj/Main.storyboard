@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--main-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="mhacks" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="main" id="vXZ-lx-hvc" customClass="ViewController" customModule="mhacks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -87,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="274.5" y="298.5"/>
         </scene>
-        <!--View Controller-->
+        <!--map-->
         <scene sceneID="y51-c8-bJc">
             <objects>
-                <viewController id="CKV-hI-ZIS" sceneMemberID="viewController">
+                <viewController title="map" id="CKV-hI-ZIS" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TtH-WW-Ldg"/>
                         <viewControllerLayoutGuide type="bottom" id="Vss-RU-YkJ"/>

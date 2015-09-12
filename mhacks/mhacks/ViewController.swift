@@ -17,9 +17,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var lbl: UILabel!
     @IBAction func signInButton(sender: AnyObject) {
         
-        println(username.text)
-        print(password.text)
-
+        if (username.hasText() && password.hasText()) {
+            println(username.text)
+            print(password.text)
+            let vc : AnyObject! = self.storyboard.instantiateViewControllerWithIdentifier("billInfo")
+            self.showViewController(vc as UIViewController, sender: vc)
+        }
+        else {
+            let alert = UIAlertView()
+            alert.title = "Sign in Error"
+            alert.message = "Your username or password was empty and/or not valid."
+            alert.addButtonWithTitle("Ok")
+            alert.show()
+        }
     }
     
     override func viewDidLoad() {
