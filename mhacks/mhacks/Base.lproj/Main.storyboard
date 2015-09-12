@@ -87,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="266.5" y="298.5"/>
         </scene>
-        <!--View Controller-->
+        <!--touristSpots-->
         <scene sceneID="mD3-7D-Iwu">
             <objects>
-                <viewController id="g6P-Ep-2lq" sceneMemberID="viewController">
+                <viewController title="touristSpots" id="g6P-Ep-2lq" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ta5-BG-V9u"/>
                         <viewControllerLayoutGuide type="bottom" id="Pzp-O0-Bwc"/>
@@ -98,6 +98,17 @@
                     <view key="view" contentMode="scaleToFill" id="3VG-YN-f7M">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Campaigns" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JV0-h1-CDZ">
+                                <rect key="frame" x="139" y="15" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.047058828175067902" green="0.15686275064945221" blue="0.98431378602981567" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DhS-sg-81G">
+                                <rect key="frame" x="52" y="44" width="270" height="142"/>
+                            </pickerView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
