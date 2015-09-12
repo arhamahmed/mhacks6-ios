@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B15B9461BA465870045319A"
-               BuildableName = "mhacks6-ios.app"
-               BlueprintName = "mhacks6-ios"
-               ReferencedContainer = "container:mhacks6-ios.xcodeproj">
+               BlueprintIdentifier = "3B15D8CB1BA484E7005A2884"
+               BuildableName = "mhacks.app"
+               BlueprintName = "mhacks"
+               ReferencedContainer = "container:mhacks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B15B95F1BA465870045319A"
-               BuildableName = "mhacks6-iosTests.xctest"
-               BlueprintName = "mhacks6-iosTests"
-               ReferencedContainer = "container:mhacks6-ios.xcodeproj">
+               BlueprintIdentifier = "3B15D8E01BA484E7005A2884"
+               BuildableName = "mhacksTests.xctest"
+               BlueprintName = "mhacksTests"
+               ReferencedContainer = "container:mhacks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B15B95F1BA465870045319A"
-               BuildableName = "mhacks6-iosTests.xctest"
-               BlueprintName = "mhacks6-iosTests"
-               ReferencedContainer = "container:mhacks6-ios.xcodeproj">
+               BlueprintIdentifier = "3B15D8E01BA484E7005A2884"
+               BuildableName = "mhacksTests.xctest"
+               BlueprintName = "mhacksTests"
+               ReferencedContainer = "container:mhacks.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B15B9461BA465870045319A"
-            BuildableName = "mhacks6-ios.app"
-            BlueprintName = "mhacks6-ios"
-            ReferencedContainer = "container:mhacks6-ios.xcodeproj">
+            BlueprintIdentifier = "3B15D8CB1BA484E7005A2884"
+            BuildableName = "mhacks.app"
+            BlueprintName = "mhacks"
+            ReferencedContainer = "container:mhacks.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B15B9461BA465870045319A"
-            BuildableName = "mhacks6-ios.app"
-            BlueprintName = "mhacks6-ios"
-            ReferencedContainer = "container:mhacks6-ios.xcodeproj">
+            BlueprintIdentifier = "3B15D8CB1BA484E7005A2884"
+            BuildableName = "mhacks.app"
+            BlueprintName = "mhacks"
+            ReferencedContainer = "container:mhacks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B15B9461BA465870045319A"
-            BuildableName = "mhacks6-ios.app"
-            BlueprintName = "mhacks6-ios"
-            ReferencedContainer = "container:mhacks6-ios.xcodeproj">
+            BlueprintIdentifier = "3B15D8CB1BA484E7005A2884"
+            BuildableName = "mhacks.app"
+            BlueprintName = "mhacks"
+            ReferencedContainer = "container:mhacks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

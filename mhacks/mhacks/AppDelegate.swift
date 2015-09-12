@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  mhacks6-ios
+//  mhacks
 //
 //  Created by Arham Ahmed on 2015-09-12.
 //  Copyright (c) 2015 Arham Ahmed. All rights reserved.

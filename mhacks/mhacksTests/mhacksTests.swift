@@ -1,6 +1,6 @@
 //
-//  mhacks6_iosTests.swift
-//  mhacks6-iosTests
+//  mhacksTests.swift
+//  mhacksTests
 //
 //  Created by Arham Ahmed on 2015-09-12.
 //  Copyright (c) 2015 Arham Ahmed. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class mhacks6_iosTests: XCTestCase {
+class mhacksTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

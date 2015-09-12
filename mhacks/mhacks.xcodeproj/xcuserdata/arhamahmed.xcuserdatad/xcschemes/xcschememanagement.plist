@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>mhacks6-ios.xcscheme</key>
+		<key>mhacks.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3B15B9461BA465870045319A</key>
+		<key>3B15D8CB1BA484E7005A2884</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3B15B95F1BA465870045319A</key>
+		<key>3B15D8E01BA484E7005A2884</key>
 		<dict>
 			<key>primary</key>
 			<true/>

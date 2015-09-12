@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F2794B6B-2572-4EAF-B95D-D8367848D52D</string>
+	<string>F493D829-9D92-4CD2-8587-E90D57AFE5C4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>mhacks6-ios</string>
+	<string>mhacks</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>DF9FA1D2139DEE4E53F4644662821D362F3F99BB</key>
 		<string>https://github.com/arhamahmed/mhacks6-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>mhacks6-ios.xcodeproj</string>
+	<string>mhacks/mhacks.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>DF9FA1D2139DEE4E53F4644662821D362F3F99BB</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/arhamahmed/mhacks6-ios.git</string>
