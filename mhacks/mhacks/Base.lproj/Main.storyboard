@@ -40,7 +40,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="signInButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Thl-fa-Bho"/>
+                                    <action selector="signInButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aB8-DN-RP1"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMi-3g-rrZ">
@@ -78,14 +78,13 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="lbl" destination="81g-88-Okv" id="F3r-dy-phM"/>
                         <outlet property="password" destination="qrO-TT-Iaf" id="kRS-JB-6nj"/>
                         <outlet property="username" destination="Tvj-2T-zPY" id="0in-08-9dz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="274.5" y="298.5"/>
+            <point key="canvasLocation" x="266.5" y="298.5"/>
         </scene>
         <!--map-->
         <scene sceneID="y51-c8-bJc">

@@ -10,18 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    var valid = false
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
-    
-    @IBOutlet weak var lbl: UILabel!
     @IBAction func signInButton(sender: AnyObject) {
         
         if (username.hasText() && password.hasText()) {
             println(username.text)
             print(password.text)
-            let vc : AnyObject! = self.storyboard.instantiateViewControllerWithIdentifier("billInfo")
-            self.showViewController(vc as UIViewController, sender: vc)
+            valid = true
         }
         else {
             let alert = UIAlertView()
@@ -41,7 +38,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func scanButton (sender: UIButton!) {
+        
+        performSegueWithIdentifier("map", sender: self)
+        
+    }
 
 }
 
