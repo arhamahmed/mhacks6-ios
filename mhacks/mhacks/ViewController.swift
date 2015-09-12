@@ -16,9 +16,10 @@ class ViewController: UIViewController {
     @IBAction func signInButton(sender: AnyObject) {
         
         if (username.hasText() && password.hasText()) {
-            println(username.text)
-            print(password.text)
+            println("username is: " + username.text)
+            print("password is: " + password.text)
             valid = true
+            self.performSegueWithIdentifier("validsign", sender: nil)
         }
         else {
             let alert = UIAlertView()
@@ -38,12 +39,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBAction func scanButton (sender: UIButton!) {
-        
-        performSegueWithIdentifier("map", sender: self)
-        
-    }
-
 }
+
 
