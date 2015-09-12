@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3B15B94D1BA465870045319A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15B94C1BA465870045319A /* AppDelegate.swift */; };
-		3B15B94F1BA465870045319A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15B94E1BA465870045319A /* RootViewController.swift */; };
-		3B15B9511BA465870045319A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15B9501BA465870045319A /* DataViewController.swift */; };
 		3B15B9531BA465870045319A /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15B9521BA465870045319A /* ModelController.swift */; };
 		3B15B9561BA465870045319A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B15B9541BA465870045319A /* Main.storyboard */; };
 		3B15B9581BA465870045319A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B15B9571BA465870045319A /* Images.xcassets */; };
 		3B15B95B1BA465870045319A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B15B9591BA465870045319A /* LaunchScreen.xib */; };
 		3B15B9671BA465870045319A /* mhacks6_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15B9661BA465870045319A /* mhacks6_iosTests.swift */; };
+		3B1B77951BA4813C008D2A7E /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B77941BA4813C008D2A7E /* DataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +30,6 @@
 		3B15B9471BA465870045319A /* mhacks6-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mhacks6-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B15B94B1BA465870045319A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B15B94C1BA465870045319A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B15B94E1BA465870045319A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		3B15B9501BA465870045319A /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		3B15B9521BA465870045319A /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		3B15B9551BA465870045319A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B15B9571BA465870045319A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -40,6 +37,7 @@
 		3B15B9601BA465870045319A /* mhacks6-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mhacks6-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B15B9651BA465870045319A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B15B9661BA465870045319A /* mhacks6_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mhacks6_iosTests.swift; sourceTree = "<group>"; };
+		3B1B77941BA4813C008D2A7E /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataViewController.swift; path = ../../../.Trash/DataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				3B15B94C1BA465870045319A /* AppDelegate.swift */,
-				3B15B94E1BA465870045319A /* RootViewController.swift */,
-				3B15B9501BA465870045319A /* DataViewController.swift */,
 				3B15B9521BA465870045319A /* ModelController.swift */,
 				3B15B9541BA465870045319A /* Main.storyboard */,
+				3B1B77941BA4813C008D2A7E /* DataViewController.swift */,
 				3B15B9571BA465870045319A /* Images.xcassets */,
 				3B15B9591BA465870045319A /* LaunchScreen.xib */,
 				3B15B94A1BA465870045319A /* Supporting Files */,
@@ -218,9 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B15B94F1BA465870045319A /* RootViewController.swift in Sources */,
 				3B15B9531BA465870045319A /* ModelController.swift in Sources */,
-				3B15B9511BA465870045319A /* DataViewController.swift in Sources */,
+				3B1B77951BA4813C008D2A7E /* DataViewController.swift in Sources */,
 				3B15B94D1BA465870045319A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +413,7 @@
 				3B15B96C1BA465870045319A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B15B96D1BA465870045319A /* Build configuration list for PBXNativeTarget "mhacks6-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +422,7 @@
 				3B15B96F1BA465870045319A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

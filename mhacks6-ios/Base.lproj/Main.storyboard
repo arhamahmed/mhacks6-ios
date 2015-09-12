@@ -58,7 +58,6 @@
         <!--Root View Controller-->
         <scene sceneID="3GU-QQ-JyJ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BPC-vx-IW7" sceneMemberID="firstResponder"/>
                 <viewController id="PxF-Ax-wPy" customClass="RootViewController" customModule="mhacks6_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="17i-ZA-3zy"/>
@@ -79,6 +78,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BPC-vx-IW7" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="166.5" y="475.5"/>
         </scene>
