@@ -90,7 +90,7 @@
         <!--touristSpots-->
         <scene sceneID="mD3-7D-Iwu">
             <objects>
-                <viewController title="touristSpots" id="g6P-Ep-2lq" sceneMemberID="viewController">
+                <viewController title="touristSpots" id="g6P-Ep-2lq" customClass="SecondViewController" customModule="mhacks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ta5-BG-V9u"/>
                         <viewControllerLayoutGuide type="bottom" id="Pzp-O0-Bwc"/>
@@ -106,12 +106,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DhS-sg-81G">
-                                <rect key="frame" x="52" y="44" width="270" height="142"/>
+                                <rect key="frame" x="57" y="44" width="270" height="142"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="3VG-YN-f7M" id="O2Q-Ap-Zdn"/>
+                                    <outlet property="delegate" destination="3VG-YN-f7M" id="YzB-r8-IjL"/>
+                                </connections>
                             </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="pickerView" destination="DhS-sg-81G" id="Q67-JT-BEp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eNB-tS-gLb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
