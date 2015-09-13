@@ -13,9 +13,9 @@ class SecondViewController: UIViewController, UIPickerViewDataSource,  UIPickerV
     
     @IBOutlet weak var pickerView: UIPickerView!
     
-    var pickerDataSource = ["Ann Arbor Michigan", "Toronto Ontario",
-                            "Waterloo Ontario", "Palo Alto California",
-                            "Quebec City Quebec", "Manhattan New York City"];
+    var pickerDataSource = ["Ann Arbor, Michigan", "Toronto, Ontario",
+                            "Waterloo, Ontario", "Palo Alto, California",
+                            "Quebec City, Quebec", "Manhattan, New York City"];
     
     override func viewDidLoad() {
         super.viewDidLoad()
