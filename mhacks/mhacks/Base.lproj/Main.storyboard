@@ -113,7 +113,7 @@
                                 </connections>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MnP-lE-YfC">
-                                <rect key="frame" x="109" y="178" width="166" height="31"/>
+                                <rect key="frame" x="109" y="194" width="166" height="31"/>
                                 <state key="normal" title="Find Tourist Locations">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
