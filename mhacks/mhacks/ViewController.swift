@@ -16,8 +16,8 @@ class ViewController: UIViewController {
     @IBAction func signInButton(sender: AnyObject) {
         
         if (username.hasText() && password.hasText()) {
-            println("username is: " + username.text)
-            print("password is: " + password.text)
+            print("username is: " + (username?.text)! ?? "")
+            print("password is: " + (password?.text)! ?? "")
             valid = true
             self.performSegueWithIdentifier("validsign", sender: nil)
         }
